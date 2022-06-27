@@ -17,6 +17,8 @@ Rock Paper Scissors - [learn more](https://www.theodinproject.com/lessons/founda
 ### Project Description: 
 As part of *The Odin Project's* curriculum, I created a pirate-themed Rock Paper Scissors game to practice my Javascript skills. Specifically: TBC
 
+### Algorithm Description: https://www.tutorialspoint.com/programming_methodologies/programming_methodologies_writing_the_algorithm.htm
+
 ### Future Improvements:
  Since this is my first Javascript project, there is many room for improvements. 
  * TBC
