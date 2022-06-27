@@ -4,14 +4,18 @@
 function computerChoice() {
     const rpsArray = ["rock", "paper", "scissors"];
     const computerSelection = rpsArray[Math.floor(Math.random() * rpsArray.length)];
-    console.log(computerSelection());
+    console.log(computerSelection);
 }
+
+computerChoice();
 
 // Player selection function 
 
 function playerChoice() {
-    const playerChoice = prompt('Please type "rock, paper, or scissors').toLocaleLowerCase();
+    const playerChoice = prompt('Please type "rock, paper, or scissors"').toLocaleLowerCase();
 }
+
+playerChoice(); 
 
 // Playing a single round 
 
@@ -19,42 +23,43 @@ function singleRound(playerChoice, computerChoice) {
     computerPlay();
 } 
 
+playerChoice();
+
 // Winner Declaration
 
 function winnerDeclaration (playerChoice, computerChoice) {
     if (playerChoice === "rock" && computerChoice === "scissors") {
         console.log("You selected rock. Captain Goldfinch selected scissors. You WON!")
     }
-        (playerChoice === "rock" && computerChoice === "paper") {
+    if (playerChoice === "rock" && computerChoice === "paper") {
             console.log("You selected rock. Captain Goldfinch selected paper. Captain Goldfinch WON!")
     }
 
-    (playerChoice === "rock" && computerChoice === "rock") {
+    if (playerChoice === "rock" && computerChoice === "rock") {
         console.log("You selected rock. Captain Goldfinch selected rock. It's a tie!")
     }
-    (playerChoice === "paper" && computerChoice === "rock") {
+    if (playerChoice === "paper" && computerChoice === "rock") {
         console.log("You selected paper. Captain Goldfinch selected rock. You WON!")
     }
-    (playerChoice === "paper" && computerChoice === "scissors") {
+    if (playerChoice === "paper" && computerChoice === "scissors") {
     console.log("You selected paper. Captain Goldfinch selected scissors. Captain Goldfinch WON!")
     }
-(playerChoice === "paper" && computerChoice === "paper") {
+    if (playerChoice === "paper" && computerChoice === "paper") {
     console.log("You selected paper. Captain Goldfinch selected paper. It's a tie!")
     }
-    (playerChoice === "scissors" && computerChoice === "rock") {
+    if (playerChoice === "scissors" && computerChoice === "rock") {
     console.log("You selected scissors. Captain Goldfinch selected rock. Captain Goldfinch WON!")
     }
-    (playerChoice === "scissors" && computerChoice === "paper") {
+    if (playerChoice === "scissors" && computerChoice === "paper") {
     console.log("You selected scissors. Captain Goldfinch selected paper. You WON!")
     }
-(playerChoice === "scissors" && computerChoice === "scissors") {
+    if (playerChoice === "scissors" && computerChoice === "scissors") {
     console.log("You selected scissors. Captain Goldfinch selected scissors. It's a tie!")
     }
 
 }
 
-
-console.log(singleRound());
+winnerDeclaration();
 
 
 
