@@ -20,13 +20,13 @@ As part of *The Odin Project's* curriculum, I created a pirate-themed Rock Paper
 ### Algorithm Description: https://www.tutorialspoint.com/programming_methodologies/programming_methodologies_writing_the_algorithm.htm
 
 ### Future Improvements:
- Since this is my first Javascript project, there is many room for improvements. 
+ Since this is my first project incorporating Javascript, there is much room for improvements. 
  * TBC
 
 ### Credits: 
 
 Footer logos from [Font-Awesome](https://github.com/FortAwesome/Font-Awesome/).
-Header Icon from Adem Heller and the [Noun Project](https://thenounproject.com/).
+Header Icon from the [Noun Project](https://thenounproject.com/).Users: Adam Heller, Smash Icons, Smalllike, Gan Khoon Lay, Kreev Studio, and David Khai. 
 
 -------------------------------
 
