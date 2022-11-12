@@ -26,6 +26,7 @@ As part of *The Odin Project's* curriculum, I created a pirate-themed Rock Paper
 ### Credits: 
 
 Footer logos from [Font-Awesome](https://github.com/FortAwesome/Font-Awesome/).
+Header Icon from Adem Heller and the [Noun Project](https://thenounproject.com/).
 
 -------------------------------
 
